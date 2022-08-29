@@ -1,0 +1,6 @@
+import java.time.*
+val dt = Instant.ofEpochSecond(1510500494)
+    .atZone(ZoneId.systemDefault())
+    .toLocalDateTime()
+
+Text(text = dt.toString())
