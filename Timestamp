@@ -1,0 +1,6 @@
+import java.sql.Date
+import java.sql.Timestamp
+
+val dateT = Timestamp(System.currentTimeMillis())
+val date = Date(dateT.time)
+Text(text = date.toString())
